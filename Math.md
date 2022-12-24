@@ -1,5 +1,6 @@
 # Bit Wise Operators
 1) Find Unique in a given array
+```
   public class FindUnique {
     public static void main(String[] args) {
         int[] arr = {2, 3, 3, 4, 2, 6, 4};
@@ -17,9 +18,9 @@
     }
  }
  Hint : a XOR a = 0
- 
+ ```
 2) Odd or Even
-
+```
    public class OddEven {
 
     public static void main(String[] args) {
@@ -33,8 +34,11 @@
   }
  Hint: IF last bit of a number is 1 then its odd else even. Wecan get last bit number by doing &1 with number
         a &1 = a
+```
+
  3) Power of 2 or not
  
+ ```
     public class PowOfTwo {
     public static void main(String[] args) {
         int n = 31; // note: fix for n = 0
@@ -43,8 +47,9 @@
       }
     }
   Hint: if a is poer of 2 then a & a-1 will be 0
-
+```
  4) Range of XOR
+  ```
     public class RangeXOR {
     public static void main(String[] args) {
         // range xor for a, b = xor(b) ^ xor(a-1)
@@ -82,8 +87,9 @@
     }
 
   }
- 
+ ```
 5) Find number of set bits
+```
     public class SetBits {
     public static void main(String[] args) {
         int n = 234567;
@@ -108,14 +114,20 @@
           return count;
       }
   }
-    
+ ```   
  6) find nth set bit position number for a
+ 
     a & (1 << n-1)
- 7) reset nth bit position for a 
+ 7) reset nth bit position for a
+ 
     a & !( 1 << n-1)
  8) set nth bit position
+ 
     a | ( 1<< n-1)
+    
  9) Number of digits in base
+ 
+ ```  
      public class NoOfDigits {
       public static void main(String[] args) {
           int n = 10;
@@ -126,9 +138,11 @@
           System.out.println(ans);
       }
     }
+  ```  
     
   10) Fnd the Magic Number
   
+  ```  
     public class MagicNumber {
     public static void main(String[] args) {
           int n = 5;
@@ -146,9 +160,11 @@
           System.out.println(ans);
       }
     }
-    
+   ```
+      
   11) Prime or not
-  
+    
+   ```
     public class Prime {
       public static void main(String[] args) {
           int n = 20;
@@ -199,8 +215,11 @@
         }
        }
     }
+    
+```
 12) Square root of a number
-
+ 
+ ```
     public class NewtonSQRT {
       public static void main(String[] args) {
           System.out.println(sqrt(40));
@@ -264,8 +283,11 @@
             return root;
         }
     }
-    
+ ```
+     
 13) Factors of a number
+  
+ ```
     public class Factors {
         public static void main(String[] args) {
             factors3(20);
@@ -312,7 +334,12 @@
         }
 
     }
+```
+      
 14) GCD and LCM of number
+
+ ```
+  
     public class GCD_LCM {
     public static void main(String[] args) {
 //        System.out.println(gcd(4, 9));
@@ -330,4 +357,5 @@
         return a * b / gcd(a, b);
     }
   }
+```
   
